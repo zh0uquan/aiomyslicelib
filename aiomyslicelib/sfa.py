@@ -13,6 +13,11 @@ from .utils.certificate import Keypair, Certificate
 from .tls import configure_tls_context
 from typing import Iterable, Union
 
+__all__ = (
+    'Endpoint', 'Authentication',
+    'SfaApi', 'SfaAm', 'SfaReg'
+)
+
 
 class Endpoint(object):
     """

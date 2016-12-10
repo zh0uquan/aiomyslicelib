@@ -5,6 +5,10 @@ Errors happens in MySliceLib
 """
 import ssl
 
+__all__ = (
+    'MySliceLibSetupError', 'MySliceLibSSLError'
+)
+
 
 class MySliceLibException(Exception):
     """

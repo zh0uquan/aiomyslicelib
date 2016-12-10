@@ -8,6 +8,8 @@ from .util import (
 from .errors import MySliceLibSetupError
 from typing import List
 
+__all__ = ('FacadeApi', )
+
 
 class FacadeApi(object):
     """
