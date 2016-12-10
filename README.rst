@@ -13,6 +13,7 @@ of original code due to I/O bound is common case in Onelab application.
 Basic usage:
 
 .. code-block:: python
+
     import asyncio
     from aiomyslicelib import (
         FacadeApi, Authentication, Endpoint
@@ -39,3 +40,9 @@ Basic usage:
     loop.run_until_complete(api._init())
     # get the version of the remote or local Sfa server
     loop.run_until_complete(api.version())
+
+An Overview of the Architecture
+===============================
+See the image below
+
+.. image 
