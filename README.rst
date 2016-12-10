@@ -45,4 +45,4 @@ An Overview of the Architecture
 ===============================
 See the image below
 
-.. image 
+.. image:: https://github.com/zh0uquan/aiomyslicelib/blob/master/ext/animate.gif?raw=true
